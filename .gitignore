@@ -1,0 +1,9 @@
+node_modules/
+.expo/
+dist/
+*.log
+.build-tmp/
+.env
+.env.*
+!.env.example
+accesouni.json*

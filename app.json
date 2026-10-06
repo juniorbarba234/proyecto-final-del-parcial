@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "AccesoUni",
+    "slug": "accesouni",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": { "backgroundColor": "#063E55" },
+    "ios": { "supportsTablet": true },
+    "android": { "package": "com.demo.accesouni" },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "AccesoUni necesita la cámara para leer credenciales de prueba.",
+          "recordAudioAndroid": false
+        }
+      ]
+    ]
+  }
+}
