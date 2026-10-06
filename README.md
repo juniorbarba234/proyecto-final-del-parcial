@@ -2,32 +2,6 @@
 
 Prototipo académico de control de estacionamiento universitario gratuito, hecho con React Native y Expo Go. La matrícula identifica al alumno y las placas a su vehículo. No abre barreras físicas ni verifica un padrón institucional.
 
-## Iniciar
-
-Repositorio independiente: `juniorbarba234/proyecto-final-del-parcial`.
-
-En CMD de Windows, desde la copia preparada en esta computadora:
-
-```bat
-cd /d "C:\Users\junio\Documents\Codex\proyecto-final-del-parcial"
-code .
-npm install
-npx expo start --tunnel
-```
-
-El último comando muestra el QR para Expo Go. Conserva abierta esa terminal. Después del primer uso no necesitas repetir `npm install`, salvo que cambien las dependencias. Para la vista web, pulsa `w` en la terminal de Expo.
-
-La bienvenida dura 30 segundos o hasta tocar la pantalla. Carrera y semestre se eligen de listas; marca/modelo, color y placas son campos separados. La vigencia común es del 1 de septiembre de 2026 al 31 de agosto de 2027 y se aplica también a registros anteriores.
-
-Desde esta carpeta:
-
-```sh
-npm install
-npx expo start --tunnel
-```
-
-Abre el QR de desarrollo con Expo Go. Computadora y teléfono necesitan conexión para cargar el proyecto; una vez cargada, la lógica no consulta servidores. Los datos se guardan localmente. También puedes usar `npm run web` para una demostración manual en navegador.
-
 ## Requisitos de la actividad
 
 | Requisito | Implementación |
@@ -72,11 +46,3 @@ La ficha del alumno incluye nombre, matrícula, carrera, semestre, vigencia de l
 - Guarda antes de confirmar éxito. Si falla la escritura, no aplica el cambio. Conserva una copia `.bak` de la versión anterior del archivo; no restaura automáticamente archivos inválidos.
 - Desinstalar Expo Go o borrar sus datos puede eliminar registros. No es una copia de seguridad institucional.
 
-## Verificación
-
-```sh
-npm test
-npx expo export --platform android --platform ios
-```
-
-Las pruebas de lógica y la compilación no sustituyen probar la cámara en un teléfono físico. Consulta `EXPOSICION.md`.
